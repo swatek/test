@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image"
+        android:textColor="#FFF" />
+>
+
+    <DatePicker
+        android:id="@+id/datePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button_confirm_date"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/datePicker1"
+        android:layout_below="@+id/datePicker1"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="34dp"
+        android:text="Confirm" />
+
+    <Button
+        android:id="@+id/button_cancel_date"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_confirm_date"
+        android:layout_alignBottom="@+id/button_confirm_date"
+        android:layout_alignRight="@+id/datePicker1"
+        android:layout_marginRight="26dp"
+        android:text="Cancel" />
+
+</RelativeLayout>

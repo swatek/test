@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello World, AStudiezActivity!</string>
+    <string name="app_name">AStudiez</string>
+    <string name="type_prompt">Choose a type of class</string>
+    <string-array name="type_arrays">
+        <item>Lecture</item>
+        <item>Lab</item>
+        <item>Meeting</item>
+    </string-array>
+    <string name="priority_prompt">Choose a priority</string>
+    <string-array name="priority_arrays">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+        <string name="buttonText_day_back">&lt;</string>
+        <string name="buttonText_day_forward">></string>
+</resources>

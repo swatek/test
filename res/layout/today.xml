@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget43"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <RelativeLayout
+        android:id="@+id/widget44"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#ff666666" >
+
+
+        <Button
+            android:id="@+id/button_today_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Today"
+            android:textSize="20dp" />
+<!-- 			android:textColor="#ffcccccc"
+            android:textSize="25dp"
+            android:textStyle="bold"
+ -->
+        
+        <Button
+            android:id="@+id/button_add_class_today"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal"
+            android:text="+"
+            android:textSize="30dp" android:paddingTop="3dp"/>
+
+        <Button
+            android:id="@+id/button_day_forward"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/button_today_up"
+            android:text="@string/buttonText_day_forward" />
+
+        <Button
+            android:id="@+id/button_day_back"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/button_today_up"
+            android:text="@string/buttonText_day_back" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/widget44" >
+
+        <ListView
+            android:id="@+id/list_courses"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:divider="#b5b5b5"
+            android:dividerHeight="1dp"
+            android:listSelector="@drawable/list_selector" >
+        </ListView>
+
+    </RelativeLayout>
+
+</RelativeLayout>
